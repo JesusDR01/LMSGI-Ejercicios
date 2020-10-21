@@ -69,6 +69,13 @@ cursor:pointer;
 
 }
 
+.element-styledownloader{
+    font-size: 35px;
+    text-shadow: 0 0 5px #e1f00e, 0 0 5px #492929;
+	color: #ffffff;
+    font-weight:bold;
+}
+
 a:link{
     text-decoration: none;
 }
