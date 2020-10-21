@@ -2,18 +2,24 @@
 	position: flex;
 
 	right: initial;
-	width: 50px;
-	height: 50px;
+	width: 42px;
+	height: 42px;
 	border-radius: 30px;
-	background-color: rgba(251, 249, 130, 0.596);
-	color: rgb(169, 189, 60);
-	border-color: rgb(250, 233, 0);
-	font-size: 26px;
+	background-color: rgb(180, 218, 233);
+	color: rgb(255, 255, 255);
+	border-color: rgb(158, 221, 163);
+	font-size: 24px;
 	cursor: pointer;
-    box-shadow: 0 0 5px #9c9674;
+    box-shadow: 0 0 5px #9ccf93;
 }
 
 a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
   }
+
+#stylebutton:hover {
+
+	color: rgb(0, 213, 241);
+	box-shadow: 0 0 2px #020801;
+}
