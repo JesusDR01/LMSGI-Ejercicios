@@ -1,0 +1,52 @@
+@font-face{
+    font-family:"prueba";
+    src: url(../FOnt/Bevan-Regular.ttf) format("TrueType");
+    font-weight: normal;
+    font-style:normal;
+}
+
+body{
+    font-family: verdana;
+    font-size: 12pt;
+    color:black;
+    background-color:#FFCC66;
+    margin: 50px;
+    font-family: "prueba";
+}
+
+#romano{
+    list-style-type: lower-roman;
+}
+
+#letra{
+    list-style-type: lower-latin;
+}
+#decimal{
+    list-style-type: decimal;
+}
+
+.uno{
+
+    list-style-image:url("./img/flecha-azul.png");
+}
+
+.dos{
+
+    list-style-image:url("./img/flecha-azul.png");
+}
+
+.punto{
+    list-style-image:url("./img/punto-rojo.png");
+}
+
+h1 {
+    background-color: white;
+    font: Verdana;
+    text-align: center;
+    font-size: 20pt;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-left:30px;
+    
+}
+
