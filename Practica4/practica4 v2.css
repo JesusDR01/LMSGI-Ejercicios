@@ -9,6 +9,7 @@ body {
     letter-spacing: 10px;
     font-size: 300%;
     text-align:center;
+    font-family: 'Bevan', cursive;
 }
 
 img {
@@ -30,6 +31,7 @@ h2{
 }
 
 #subtitle{
+    font-family: 'Vampiro One', cursive;
     background-color: gray;
     color:white;
 }
@@ -48,6 +50,17 @@ p{
     text-indent: 29px;
 
 }
+
+@font-face{
+    font-family:"Bevan";
+    src: url("../FOnt/Bevan-Regular.ttf");
+    font-weight:normal;
+    font-style:normal;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
 
 
 
