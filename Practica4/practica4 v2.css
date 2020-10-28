@@ -6,7 +6,7 @@ body {
 }
 
 #title {
-    letter-spacing: 10px;
+    justify-content: center;
     font-size: 300%;
     text-align:center;
     font-family: 'Bevan', cursive;
