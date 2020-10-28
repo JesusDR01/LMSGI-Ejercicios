@@ -25,6 +25,11 @@ img {
     margin-right: 10%;
 }
 
+h2{
+    clear:both;
+
+}
+
 #subtitle{
     font-family: 'Vampiro One', cursive;
     background-color: gray;
