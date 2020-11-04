@@ -1,0 +1,22 @@
+.padre1,  .padre2{
+    position:static;
+    padding-top:0px;
+    padding-bottom:60px;
+    border:2px solid blue;
+    width:30%;
+
+}
+
+.child1{
+    position:absolute;
+    right:15px;
+    top:70px;
+    border:2px solid red;
+}
+
+.child2{
+    position:absolute;
+    top:370px;
+    
+    border:2px solid red;
+}
