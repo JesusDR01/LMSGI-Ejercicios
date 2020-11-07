@@ -1,0 +1,25 @@
+#left{
+    position:relative;
+    left:-30px;
+}
+
+#right{
+    position:relative;
+    left:50px;
+}
+
+#wrapper{
+    width:865px;
+    background-color: white;
+    overflow:hidden;
+    box-shadow: 2px 2px rgb(207, 207, 207);
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+#wrapper2{
+
+    padding-left:10px;
+}

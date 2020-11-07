@@ -1,0 +1,58 @@
+.padre1,  .padre2, .padre3, .padre4{
+   
+    padding-top:0px;
+    padding-bottom:60px;
+    border:2px solid blue;
+    width:30%;
+
+}
+
+.child1{
+    position:absolute;
+    right:15px;
+    top:70px;
+    border:2px solid red;
+}
+
+.child2{
+    position:absolute;
+    top:63px;
+    right:15px;
+
+    border:2px solid red;
+}
+
+.child3{
+    position:absolute;
+    border:2px solid red;
+    top:60px;
+    right:15px;
+}
+
+.padre2{
+    position:relative;
+}
+
+.padre3{
+    position:absolute;
+    top:750px;
+    right:15px;
+}
+
+
+.padre4{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgb(251, 211, 211);
+   
+}
+
+.child4{
+    position:absolute;
+    border:2px solid red;
+    top:63px;
+    right:15px;
+
+}

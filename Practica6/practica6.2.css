@@ -1,0 +1,22 @@
+#wrapper{
+    width:640px;
+    background-color: white;
+    overflow:hidden;
+    box-shadow: 2px 2px rgb(207, 207, 207);
+}
+
+#div1{
+    border: solid rgb(95, 202, 95);
+    position:relative;
+    width:63%;
+    height:200px;
+}
+
+#div2{
+    border: solid rgb(95, 202, 95);
+    position: absolute;
+    top:90px;
+    right:0px;
+    width:43%;
+    height: 90px;;
+}

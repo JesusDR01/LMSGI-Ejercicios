@@ -1,0 +1,17 @@
+#wrapper{
+    width:640px;
+    height:640px;
+    background-color: white;
+    overflow:hidden;
+    box-shadow: 2px 2px rgb(207, 207, 207);
+}
+
+
+#div1{
+    border: solid rgb(95, 202, 95);
+ 
+    right:1160px;
+    bottom:50px;
+    position:fixed;
+   
+}
