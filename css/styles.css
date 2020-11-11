@@ -23,7 +23,7 @@ padding-bottom: 1%;
 padding-top:1%;
 background-color: rgba(251, 249, 130, 0.596);
 border-radius: 200px;
-border-spacing: 0 2em;
+border-spacing: 0 20px;
 box-shadow: 0 0 10px #9c9674;
 }
 table:hover{
@@ -41,7 +41,7 @@ table:hover{
 
 .title-style{
 
-    font-size: 90px;
+    font-size: 60px;
     font-weight: bold;
 	text-shadow: 0 0 10px #4dddd6, 0 0 10px #dfdfeb;
 	color: #ffffff;
