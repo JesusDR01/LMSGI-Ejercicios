@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(206, 201, 201);
+}
+
+header{
+    height:200px;
+    background-repeat: 3;
+    
+    background-image:url("./img/Banner-pizza.jpg")
+}
+
+header > h1{
+    color:white;
+    text-shadow:3px 3px black;
+    padding:3%;
+    padding-top:4%;
+    margin-left:11%;
+    font-size: 51px;
+}
+
+.client{
+float:left;
+width:35%;
+}
+.order{
+    display:inline-block;
+    width:35%;
+    
+}
+
+aside{
+    float: right;
+    width:25%;
+}
+
+
+
+
+ul{
+    
+  
+    color:rgb(255, 255, 255);
+    list-style-type: none;  
+    
+    padding:0;
+    background-color: #333;
+    overflow:hidden;
+
+}
+li{
+    float:right;
+}
+
+li a{
+    
+    color:white;
+    display:inline-block;
+    padding: 14px 16px;
+    border:0px;
+    text-decoration:none;
+    
+}
+
+
+li a:hover{
+    background-color:gray;
+}
