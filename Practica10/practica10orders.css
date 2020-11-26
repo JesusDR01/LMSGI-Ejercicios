@@ -6,7 +6,8 @@ header{
     height:200px;
     background-repeat: 3;
     
-    background-image:url("./img/Banner-pizza.jpg")
+    background-image:url("./img/Banner-pizza.jpg");
+   opacity:0.65;
 }
 
 header > h1{
@@ -31,9 +32,38 @@ width:35%;
 aside{
     float: right;
     width:25%;
+    height: 330px;
+    padding:1%;
+    border-left: 3px solid black;
+   
 }
 
 
+.title1{
+width:60%;
+margin-left:3%;
+background-color:rgb(245, 245, 151);
+text-shadow:1px 1px black;
+text-align: center;
+}
+
+label{
+display:block;
+margin: .5em 0 0 0;
+}
+
+.send{
+    padding:1%;
+    width:50%;
+}
+
+footer{
+    background-color: black;
+    text-align: right;
+    color:white; 
+   
+    padding:20px;
+}
 
 
 ul{

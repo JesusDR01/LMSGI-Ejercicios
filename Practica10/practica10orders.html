@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <title>Posicionamiento de cajas</title>
+    <meta charset="utf-8">
+    <meta name="Author" content="Jesús Díaz Rivas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./practica10orders.css" />
+    <link rel="stylesheet" href="../css/toindex.css" />
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+</head>
+
+<body>
+    <div>
+        <button id="showbutton" type="button">
+            <a href="../index.html"><i class="fas fa-house-user"></i></a>
+        </button>
+
+        <font size="+2">Volver a inicio</font>
+    </div>
+
+    <div>
+
+        <header>
+            <h1>Pizzas artesanas</h1>
+        </header>
+
+
+        <nav class="menu">
+            <ul>
+
+
+                <li>
+                    <a href="./practica10orders.html">Pedidos</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Horarios</a>
+                </li>
+
+                <li>
+                    <a href="#about">Productos</a>
+                </li>
+
+                <li class="active">
+                    <a href="./practica10index.html">Inicio</a>
+                </li>
+            </ul>
+
+        </nav>
+        <div>
+
+       
+        <aside>
+            <h1>Novedades</h1>
+            <p>Pedidos a domicilio sin cargos</p>
+            <p>Nuevas instalaciones</p>
+        </aside>
+
+
+        <div>
+
+            <h1 class="title1">Datos de pedidos</h1>
+
+            <form>
+                <div class="client">
+                    <section>
+                        <fieldset>
+                            <legend>Datos cliente</legend>
+                            <label for="nombre"> Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" size="30" maxlength="35" accesskey="n" />
+
+
+
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" name="apellidos" id="apellidos" size="30" maxlength="35" />
+
+
+
+                            <label for="tlf">Telefono:</label>
+                            <input type="tel" name="tlf" size="15" maxlength="12" required placeholder="#########"
+                                pattern="[0-9]{9}" id="tlf" />
+
+                            <label for="direccion">Dirección:</label>
+                            <input type="text" name="direccion" id="direccion" size="30" maxlength="35" />
+
+                            <label for="correo">Correo:</label>
+                            <input type="email" name="correo" id="correo" size="30" maxlength="100" required />
+
+                        </fieldset>
+                    </section>
+                </div>
+
+                <div>
+                    <section class="order">
+                        <fieldset>
+                            <legend>Datos pedido</legend>
+                            <label>Entrega</label>
+                            <label for="domicilio">
+                                <input type="radio" name="entrega" value="D">Domicilio
+                            </label>
+                            <label for="local">
+                                <input type="radio" name="entrega" value="L">Local
+                            </label>
+                            <label>Pizzas</label>
+
+                            <label>
+                                <input type="checkbox" id="pizza1" name="pizza1" value="1">Barbacoa
+                            </label>
+
+                            <label>
+                                <input type="checkbox" id="pizza2" name="pizza2" value="1">Peperoni
+                            </label>
+
+                            <label>
+                                <input type="checkbox" id="pizza3" name="pizza3" value="1">4 Quesos
+                            </label>
+
+                            <label for="entrega">Entrega</label>
+                            <select id="entrega" name="entrega">
+                                <optgroup label="Entrega">
+                                    <option value="LO">Local</option>
+                                    <option value="DO">Domicilio</option>
+                                </optgroup>
+                            </select>
+
+
+                        </fieldset>
+
+
+                    </section>
+                    <div class="send">
+                        <input type="submit" name="aceptar" value="Enviar" />
+                        <input type="reset" value="Borrar" />
+                    </div>
+                </div>
+            </form>
+        </div>
+
+      
+    </div>
+    <footer>
+        <span class="footertxt">Desarrollo web estático se distribuye bajo licencia creative commons
+            Atribución-No-Comercial-CompartirIgual 3.0 Unported </span>
+        </footer>
+</body>
+
+
+</html>

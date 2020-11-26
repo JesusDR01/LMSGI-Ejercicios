@@ -22,10 +22,11 @@ padding-right: 4em;
 padding-bottom: 1%;
 padding-top:1%;
 background-color: rgba(251, 249, 130, 0.596);
-border-radius: 200px;
+border-radius: 144px;
 border-spacing: 0 20px;
 box-shadow: 0 0 10px #9c9674;
 }
+
 table:hover{
     box-shadow:5px 5px 8px 5px black;
     transition: 0.5s;
@@ -34,10 +35,36 @@ table:hover{
 
 
 .tbody-style{
+    display:block;
     font-size: 35px;
 	color: #ffffff;
     text-align: center;
+    overflow:auto;
+    height:300px;
 }
+
+  .tbody-style {
+    width: 100%;
+    height: 295px;
+    overflow-y: scroll;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+   }
+   ::-webkit-scrollbar-thumb {
+    background: radial-gradient(circle, #dbe8b2 0%,#fcffd4 100%);
+    border-radius: 50px;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(360deg, #fcffd4 20%,#c3c6e0 100%);
+   }
+   ::-webkit-scrollbar-track{
+    background: rgba(251, 249, 130, 0.596);
+    border-radius: 3px;
+    box-shadow: inset 7px 10px 12px #f0f0f0;
+   }
+
 
 .title-style{
 

@@ -1,0 +1,130 @@
+body{
+    background-color:rgb(206, 201, 201);
+}
+
+header{
+    height:200px;
+    background-repeat: 3;
+    
+    background-image:url("./img/Banner-pizza.jpg");
+   opacity:0.65;
+}
+
+header > h1{
+    color:white;
+    text-shadow:3px 3px black;
+    padding:3%;
+    padding-top:4%;
+    margin-left:11%;
+    font-size: 51px;
+}
+
+.client{
+float:left;
+width:35%;
+}
+.order{
+    display:inline-block;
+    width:35%;
+    
+}
+
+aside{
+    float: right;
+    width:25%;
+    height: 330px;
+    padding:1%;
+    border-left: 3px solid black;
+   
+}
+
+
+.title1{
+width:60%;
+
+background-color:rgb(245, 245, 151);
+text-shadow:1px 1px black;
+text-align: center;
+}
+
+label{
+display:block;
+margin: .5em 0 0 0;
+}
+
+.send{
+    padding:1%;
+    width:50%;
+}
+
+footer{
+    background-color: black;
+    text-align: right;
+    color:white; 
+   
+    padding:20px;
+}
+
+.flex{
+    display: flex;
+    width:65%;
+    justify-content: space-around;
+    
+}
+
+.subtitle{
+    color:green;
+    text-align:center;
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom:0;
+}
+.description{
+ 
+   
+    font-size:20px;
+    
+    padding-right:30px;
+    padding-bottom:0px;
+    margin-bottom: 0;
+}
+.head{
+    padding-right:0;
+    padding-left:50px;
+}
+.flex > div{
+    display:flex;
+    flex-flow:column nowrap;
+   
+    align-items: center;
+}
+
+ul{
+    
+  
+    color:rgb(255, 255, 255);
+    list-style-type: none;  
+    
+    padding:0;
+    background-color: #333;
+    overflow:hidden;
+
+}
+li{
+    float:right;
+}
+
+li a{
+    
+    color:white;
+    display:inline-block;
+    padding: 14px 16px;
+    border:0px;
+    text-decoration:none;
+    
+}
+
+
+li a:hover{
+    background-color:gray;
+}
