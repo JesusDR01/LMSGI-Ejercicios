@@ -2,19 +2,31 @@
 	position: flex;
 
 	right: initial;
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
 	border-radius: 30px;
 	background-color: rgba(251, 249, 130, 0.596);
 	color: rgb(169, 189, 60);
 	border-color: rgb(250, 233, 0);
-	font-size: 26px;
+	font-size: 40px;
 	cursor: pointer;
     box-shadow: 0 0 5px #9c9674;
-    margin-bottom:2%;
+    margin-bottom:10px;
 }
 
 a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
+  }
+
+  #goback{
+	  display:inline-block;
+  }
+
+  span{
+	font-size: 40px;
+	  
+	color: #005900;
+
+	text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px;
   }
