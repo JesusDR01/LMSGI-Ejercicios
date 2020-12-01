@@ -14,11 +14,16 @@
 
 <body>
     <div>
-        <button id="showbutton" type="button">
-            <a href="../index.html"><i class="fas fa-house-user"></i></a>
-        </button>
-
-        <font size="+2">Volver a inicio</font>
+        <div>
+            <button id="showbutton" type="button">
+                <a href="../index.html"><i class="fas fa-house-user"></i></a>
+                
+            </button>
+            <div  id="goback"> 
+                <span id="goback-text">Volver a inicio</span>
+            </div>
+          
+        </div>
     </div>
 
     <div>
@@ -40,9 +45,14 @@
                     <a href="#contact">Horarios</a>
                 </li>
 
-                <li>
-                    <a href="#about">Productos</a>
-                </li>
+                  <li class="products">
+                <a href="#about">Productos</a>
+                <ul id="submenu">
+                    <li><a href="#">Pizzas</a></li>
+                    <li><a href="#">Bocadillos</a></li>
+                    <li><a href="#">Especiales</a></li>
+                  </ul>
+            </li>
 
                 <li class="active">
                     <a href="./practica10index.html">Inicio</a>

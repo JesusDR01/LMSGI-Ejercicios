@@ -32,7 +32,7 @@ width:35%;
 aside{
     float: right;
     width:25%;
-    height: 570px;
+    height: 530px;
     padding:1%;
     border-left: 3px solid black;
    
@@ -140,18 +140,18 @@ li a:hover{
 
 
 #submenu {
-	left: 0;
+
 	opacity: 0;
 	position: absolute;
-	top: 35px;
+    top: 374px;	/* adjust this as per top nav padding top & bottom comes */
+
 	visibility: hidden;
     z-index: 1;
     
 }
 li:hover ul#submenu {
 	opacity: 1;
-    top: 380px;	/* adjust this as per top nav padding top & bottom comes */
-    left:997px;
+    top: 374px;	/* adjust this as per top nav padding top & bottom comes */
     visibility: visible;
     margin:0;
     padding:0;
