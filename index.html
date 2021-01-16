@@ -2,96 +2,108 @@
 <html lang="es">
 
 <head>
-
+    <script type="text/javascript" src="./main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
     <meta charset="utf-8" />
     <meta name="description" content="Indice de mis ejercicios" />
     <title>Indice ejercicios</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/download.css">
-    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
-    
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/download.css" />
+
 
 </head>
 
 <body id="background">
     <div class="wrapper">
-        <table>
-            <tbody class="tbody-style">
-                <div class="cover-bar"></div>
-                <tr>
-                    <td> <span class="title-style">Índice de ejercicios</span>
+        <div class="tareas">
+            <div class="titulo">
+                <p><span class="title-style">Índice de ejercicios</span></p>
+            </div>
+            <button class="toggle1"><a class="element-style"> Primer trimestre</a></button>
+            <div class="panel1">
+                <p>
+                    <a class="element-styledownloader">Practica 1: HTML Inicio</a>
+                    <a href="https://github.com/bules2/ejercicios/raw/master/Downloads/ACT1_HTML_JDR.zip" download>
+                        <button id="stylebutton">
+                            <i class="fas fa-arrow-circle-down"></i>
+                        </button>
+                </p>
 
-                    </td>
+                <p>
+                    <a class="element-style" href="./Practica2/lista_definicion_JDR.html" >Practica 2: Listas, tablas
+                        y enlaces</a>
+                </p>
 
-                </tr>
+                <p>
+                    <a class="element-style" href="./Practica3/Practica3.html">Practica 3: Formatos de texto,
+                        enlaces, imágenes, tablas</a>
+                </p>
 
-                <tr>
-
-                    <td>
-                        <a class="element-styledownloader">Practica 1: HTML Inicio</a>
-                        <a  href="https://github.com/bules2/ejercicios/raw/master/Downloads/ACT1_HTML_JDR.zip" download><button id="stylebutton"><i class="fas fa-arrow-circle-down"></i></button></a>
-                    </td>
-
-                </tr>
-
-                <tr>
-                    <td><a class="element-style" href="./Practica2/lista_definicion_JDR.html">Practica 2: Listas, tablas y
-                            enlaces</a></td>
-                </tr>
-
-                <tr>
-                    <td><a class="element-style" href="./Practica3/Practica3.html">Practica 3: Formatos de texto,
-                            enlaces, imágenes, tablas</a></td>
-                </tr>
-
-                <tr>
-                    <td><a class="element-style" href="./Practica4/practica4.html">Practica 4: Estilos CSS V1</a>
+                <p>
+                    <a class="element-style" href="./Practica4/practica4.html">Practica 4: Estilos CSS V1</a>
                     <a class="element-style" href="./Practica4/practica4 v2.html">versión 2</a>
-                    </td>
-                </tr>
+                </p>
 
-                <tr>
-                    <td><a class="element-style" href="./Practica5/practica5.html">Practica 5: Maquetación Web-Cajas 1</a>
-                    </td>
-                </tr>
+                <p>
+                    <a class="element-style" href="./Practica5/practica5.html">Practica 5: Maquetación Web-Cajas
+                        1</a>
+                </p>
 
-                <tr>
-                    <td><a class="element-styledownloader">Practica 6: Posicionamiento de cajas 2 -> </a>
-                        <a class="element-style" href="./Practica6/practica6.1.html"> 6.1</a>
-                        <a class="element-style" href="./Practica6/practica6.2.html"> 6.2</a>
-                        <a class="element-style" href="./Practica6/practica6.3.html"> 6.3</a>
-                        <a class="element-style" href="./Practica6/practica6.4.html"> 6.4</a>
-                        <a class="element-style" href="./Practica6/practica6.5.html"> 6.5</a>
-                        <a class="element-style" href="./Practica6/practica6.6.html"> 6.6</a>
-                    </td>
-                </tr>
+                <p>
+                    <a class="element-styledownloader">Practica 6: Posicionamiento de cajas 2 ->
+                    </a>
+                    <a class="element-style" href="./Practica6/practica6.1.html">
+                        6.1</a>
+                    <a class="element-style" href="./Practica6/practica6.2.html">
+                        6.2</a>
+                    <a class="element-style" href="./Practica6/practica6.3.html">
+                        6.3</a>
+                    <a class="element-style" href="./Practica6/practica6.4.html">
+                        6.4</a>
+                    <a class="element-style" href="./Practica6/practica6.5.html">
+                        6.5</a>
+                    <a class="element-style" href="./Practica6/practica6.6.html">
+                        6.6</a>
+                </p>
 
-                <tr>
-                    <td><a class="element-style" href="./Practica7/practica7.html">Practica 7: Posicionamiento de Cajas 3</a>
-                    </td>
-                </tr>
+                <p>
+                    <a class="element-style" href="./Practica7/practica7.html">Practica 7: Posicionamiento de Cajas
+                        3</a>
+                </p>
 
-                <tr>
-                    <td><a class="element-style" href="./Practica8/practica8.html">Practica 8: Posicionamiento de caja 4</a>
-                    </td>
-                </tr>
+                <p>
+                    <a class="element-style" href="./Practica8/practica8.html">Practica 8: Posicionamiento de caja
+                        4</a>
+                </p>
 
-                <tr>
-                    <td><a class="element-style" href="./Practica10/practica10index.html">Practica 10:Formularios y secciones de html</a>
-                    </td>
-                </tr>
+                <p>
+                    <a class="element-style" href="./Practica10/practica10index.html">Practica 10:Formularios y
+                        secciones de html</a>
+                </p>
 
-                <tr>
-                    <td><a class="element-style" href="./Practica11/practica11.html">Practica 11:Repaso de tablas</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td><a class="element-style" href="./Practica12/Ej12-4.html">Practica 12:Maquetación Responsive</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+                <p>
+                    <a class="element-style" href="./Practica11/practica11.html">Practica 11:Repaso de tablas</a>
+                </p>
+
+                <p>
+                    <a class="element-style" href="./Practica12/Ej12-4.html">Practica 12:Maquetación Responsive</a>
+                </p>
+
+               
+
+            </div>
+            <button class="toggle2"><a class="element-style trimestre-style"> Segundo trimestre</a></button>
+            <div class="panel2">
+                <p>
+                    <a class="element-style" href="./Practica13/practica13.html">Practica 1:Práctica
+                        3-Responsive-FlexBox</a>
+                </p>
+                </div>
+        </div>
+
+
+
 </body>
 
 </html>
