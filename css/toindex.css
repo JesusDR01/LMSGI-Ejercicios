@@ -1,19 +1,27 @@
 #showbutton {
-	position: flex;
-
-	right: initial;
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
 	background-color: rgba(251, 249, 130, 0.596);
 	color: rgb(169, 189, 60);
 	border-color: rgb(250, 233, 0);
-	font-size: 40px;
-	cursor: pointer;
-    box-shadow: 0 0 5px #9c9674;
-    margin-bottom:10px;
-}
+	box-shadow: 0 0 5px #9c9674;
 
+	padding: 1%;
+	font-size: 30px;
+	border-radius: 70px;
+	cursor: pointer;
+   
+	outline: none;
+
+   
+}
+.wrapperback{
+	display:flex;
+	align-items: baseline;
+	margin-bottom:10px;
+}
 a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
@@ -24,9 +32,20 @@ a {
   }
 
   #goback-text{
-	font-size: 40px;
+	font-size: 30px;
 	  
 	color: #005900;
 
 	text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px;
+  }
+
+  @media screen and (max-width: 600px) {
+	#showbutton, #goback-text{
+		font-size: 15px;
+		
+	}
+	#goback-text{
+		text-shadow: #FFFCA8 1px 0.6px 0px, #9C9C9C 1.5px 1.5px 0px;
+	}
+
   }

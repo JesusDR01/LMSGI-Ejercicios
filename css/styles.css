@@ -25,6 +25,9 @@ body {
   background: transparent;
   box-shadow: 0;
 }
+.toggle1{
+  margin-top:25px;
+}
 
 button > .element-style:hover {
   text-shadow: 0 0 10px #4dddd6, 0 0 10px #dfdfeb;
@@ -90,11 +93,10 @@ button {
 }
 .element-style:hover {
   text-shadow: 2px 2px 4px #000000;
-  box-shadow: 1 1 70px #000000;
+
   transition: 0.5s;
   cursor: pointer;
 }
-
 .element-styledownloader {
   font-size: 35px;
   text-shadow: 0 0 5px #e1f00e, 0 0 5px #492929;
@@ -122,4 +124,13 @@ a:link {
   background: rgba(251, 249, 130, 0.596);
   border-radius: 3px;
   box-shadow: inset 7px 10px 12px #f0f0f0;
+}
+
+@media screen and (max-width: 600px) {
+  .title-style{
+    font-size: 30px;
+  }
+  .element-style, .element-styledownloader{
+    font-size: 20px;
+  }
 }

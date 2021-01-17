@@ -152,7 +152,7 @@ footer *{
   body{
     background: rgb(255,255,255);
 
-    background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 88%, rgba(0,0,0,1) 100%);
   }
   .col2{
     background:transparent;
