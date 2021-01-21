@@ -1,0 +1,81 @@
+form{
+    background-color: rgb(240, 240, 240);
+    display:flex;
+    flex-direction: column;
+    padding: 10px;;
+    
+}
+form > div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:10px;
+}
+label{
+flex-basis: 110px;
+}
+select{
+    width: 1208px;
+    padding:10px;
+}
+
+textarea{
+    
+    width: 1202px;
+    height: 200px;
+}
+input[type="text"]{
+    width: 1183px;
+    padding:10px;
+}
+
+input[type="submit"]{
+    padding: 12px 15px 12px 15px;
+    background-color: #37bd3b;
+    color:white;
+	border: none;
+	cursor: pointer;
+    border-radius: 5px;
+  
+}
+.submitarea{
+    align-self: flex-end;
+    padding-top:0;
+}
+.observaciones{
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    form > div{
+       flex-direction: column;
+       flex-wrap: nowrap;
+    }
+    label{
+        flex-basis: auto;
+    }
+    textarea, select, input[type="text"]{
+        width: auto;
+        margin: 10px;
+        margin-left: 0;
+        
+    }
+    textarea{
+        height: 150px;
+        margin-bottom: 2px;
+    }
+    .observaciones{
+        padding-bottom: 0;
+    }
+    .submitarea{
+        width: 97%;
+        
+ 
+        padding: 0;
+    }
+    input[type="submit"]{
+      
+        width: 95%;
+
+    }
+}

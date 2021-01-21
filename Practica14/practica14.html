@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Author" content="Jesús Díaz Rivas" />
+    <link rel="stylesheet" type="text/css" href="./practica14.css" />
+    <link rel="stylesheet" href="../css/toindex.css" />
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <title>formulario Login - FlexBox</title>
+  </head>
+
+  <body>
+    <!--Go back button -->
+    <div class="wrapperback">
+      <button id="showbutton" type="button">
+        <a href="../index.html">
+          <i class="fas fa-house-user"></i>
+        </a>
+      </button>
+
+      <div>
+        <span id="goback-text">Volver a inicio</span>
+      </div>
+    </div>
+    <!-- End Go back button-->
+    <nav>
+      <div class="registro">
+        <button onclick="location.href='./practica14sub.html';">
+          <a>Registro</a>
+        </button>
+      </div>
+    </nav>
+
+    <div class="wrapper">
+    
+      <form  accept-charset="utf-8"><!-- action="alta.php" method="post"-->
+        <h2>Acceso a la web</h2>
+        <div class="user">
+          <label for="usuario"> Usuario:</label>
+          <input
+            type="text"
+            name="usuario"
+            size="20"
+            maxlength="35"
+            accesskey="n"
+            placeholder="Usuario"
+          />
+        </div>
+
+        <div>
+          <label for="password">Contraseña:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            size="20"
+            maxlength="35"
+            tabindex="1"
+            accesskey="p"
+            placeholder="Contraseña"
+          />
+
+        </div>
+
+        <div class="forget">
+            
+          <input
+          name="forget"
+          type="checkbox"
+          id="aficion1"
+          name="aficion1"
+          value="1"
+        />
+        
+          <label for="forget"> ¿Has olvidado tu contraseña? </label>
+        
+        </div>
+        <input type="submit" name="entrar" value="Entrar" />
+      </form>
+    </div>
+  </body>
+</html>
