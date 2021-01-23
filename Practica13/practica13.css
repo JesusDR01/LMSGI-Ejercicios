@@ -115,7 +115,22 @@ footer *{
 @media screen and (max-width: 600px) {
   .colContainer {
     flex-direction: column;
+   
   }
+  .colContainer{
+    margin:10px;
+    margin-top: 0;
+  }
+  nav,header{
+    margin:10px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  footer{
+    max-width: 94%;
+    margin:10px;
+  }
+  
   .col2 {
     margin: 0;
   }
@@ -132,7 +147,9 @@ footer *{
 
   aside {
     max-width: 100%;
+    background-color: rgba(211, 211, 211, 0.342);
   }
+
   .imgExample1 {
     align-self: center;
   }
@@ -143,7 +160,7 @@ footer *{
     align-self: center;
   }
   body{
-      margin:10px;
+      margin:0px;
   }
   aside{
       max-width: 95%;
@@ -153,13 +170,16 @@ footer *{
       height: auto;
      
   }
-  body{
-    /*background: url("./svgPhone.svg") no-repeat center;
-       background: linear-gradient(180deg, rgba(255,255,255,1) 88%, rgba(0,0,0,1) 100%);
-    background-image: url("./svgPhone.svg");*/
-    background: url("./svgPhone.svg") no-repeat fixed;
-    background-size: cover;
-    
+ 
+  .background-holder {
+    position: fixed; 
+    background-position: 38%;
+      width: 100%; 
+      height: 100%; 
+      display: block; 
+      z-index: -10; 
+      background: url("./svgPhone.svg") no-repeat fixed;
+      background-size: cover;
   }
   .col2{
     background:transparent;
