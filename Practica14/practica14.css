@@ -73,3 +73,8 @@ h2 {
 .registro > button{
     cursor:pointer;
 }
+@media screen and (max-width: 600px) {
+form{
+  padding:10px;
+}
+}
