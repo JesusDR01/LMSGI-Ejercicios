@@ -53,8 +53,12 @@ li a:hover {
 .col2 {
   margin-left: 40px;
   width: 100%;
+  /*
   background: rgb(255,255,255);
-  background: linear-gradient(135deg, rgba(255,255,255,1) 57%, rgba(0,0,0,1) 80%);
+  background: linear-gradient(135deg, rgba(255,255,255,1) 57%, rgba(0,0,0,1) 80%);*/
+  background: url("./svgPc.svg") no-repeat center;
+  background-image: url("./svgPc.svg");
+  background-size: cover;  
 }
 .imgExample1,
 .imgExample3 {
@@ -150,9 +154,12 @@ footer *{
      
   }
   body{
-    background: rgb(255,255,255);
-
-    background: linear-gradient(180deg, rgba(255,255,255,1) 88%, rgba(0,0,0,1) 100%);
+    /*background: url("./svgPhone.svg") no-repeat center;
+       background: linear-gradient(180deg, rgba(255,255,255,1) 88%, rgba(0,0,0,1) 100%);
+    background-image: url("./svgPhone.svg");*/
+    background: url("./svgPhone.svg") no-repeat fixed;
+    background-size: cover;
+    
   }
   .col2{
     background:transparent;
