@@ -134,3 +134,11 @@ a:link {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 350px) {
+  .title-style{
+    font-size: 20px;
+  }
+  .element-style, .element-styledownloader{
+    font-size: 15px;
+  }
+}
