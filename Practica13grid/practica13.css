@@ -14,6 +14,13 @@ body{
   "aside content content"
   "footer footer footer";
 }
+.col2 > h1{
+  font-size: 72px;
+  background: -webkit-linear-gradient(162deg, rgba(255,255,255,1) 0%, rgba(24,24,24,1) 70%, rgba(0,0,0,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;   
+}
+
 nav{
   grid-area:nav;
 }
