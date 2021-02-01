@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Author" content="Jesús Díaz Rivas" />
+    <link rel="stylesheet" type="text/css" href="./css/practica15.css" />
+    <link rel="stylesheet" type="text/css" href="./css/transition.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/loading.min.css" />
+    <link rel="stylesheet" href="../css/toindex.css" />
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+    <title>Ejercicio Media Query</title>
+  </head>
+
+  <body>
+    <!--Go back button -->
+    <div class="wrapperback">
+      <button id="showbutton" type="button">
+        <a href="../index.html">
+          <i class="fas fa-house-user"></i>
+        </a>
+      </button>
+      <div>
+        <span id="goback-text">Volver a inicio</span>
+      </div>
+    </div>
+
+    <!-- Background de la web-->
+    <div class="background-holder"></div>
+
+    <!-- Estructuración de la web (grid principal) -->
+    <div class="wrapper">
+      
+      <header></header>
+      
+      <nav>
+        <ul>
+          <li>
+            <a href="#"> Más imágenes</a>
+          </li>
+          <li>
+            <a href="#"> Eventos</a>
+          </li>
+          <li>
+            <a href="#"> Curiosidades</a>
+          </li>
+          <li>
+            <a href="#"> Contacto</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Formulario -->
+      <aside>
+        <form accept-charset="utf-8">
+          <!-- action="alta.php" method="post"-->
+          <h2>¡Visítanos!</h2>
+          <p>
+            ¡Rellena este formulario para que enviemos a tu correo los eventos
+            que ocurrirán en córdoba el día que estés aquí!
+          </p>
+
+          <div class="nombre">
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              size="17"
+              maxlength="35"
+              accesskey="n"
+              placeholder="Tu nombre"
+            />
+          </div>
+
+          <div class="user">
+            <label for="correo">Correo:</label>
+            <input
+              type="email"
+              name="correo"
+              id="correo"
+              size="17"
+              maxlength="100"
+              required
+              placeholder="Tucorreo@gmail.com"
+            />
+          </div>
+
+          <div>
+            <label for="fechaida">Ida:</label>
+            <input type="date" id="fechaida" name="fechaida" />
+          </div>
+
+          <div>
+            <label for="fechavuelta">Vuelta:</label>
+            <input type="date" id="fechavuelta" name="fechavuelta" />
+          </div>
+          <input type="submit" name="enviar" value="Enviar" />
+        </form>
+      </aside>
+
+      <!-- Menú principal -->
+      <div class="colContainer">
+        <div class="col2">
+          <div class="img1 tooltip">
+            <span class="tooltiptext">
+              <a
+                href="https://es.wikipedia.org/wiki/Alc%C3%A1zar_de_los_Reyes_Cristianos"
+                target="_blank"
+              >
+                Puedes visitar el Alcazar de los reyes cristianos
+              </a>
+            </span>
+          </div>
+
+          <div class="img2 tooltip">
+            <span class="tooltiptext">
+              <a
+                href="https://es.wikipedia.org/wiki/Feria_de_C%C3%B3rdoba_(Espa%C3%B1a)"
+                target="_blank"
+              >
+                Puedes visitar la feria
+              </a>
+            </span>
+          </div>
+
+          <div class="img3 tooltip">
+            <span class="tooltiptext">
+              <a
+                href="https://es.wikipedia.org/wiki/Mezquita-catedral_de_C%C3%B3rdoba"
+                target="_blank"
+              >
+                Puedes visitar la mezquita
+              </a>
+            </span>
+          </div>
+          <div class="img4 tooltip">
+            <span class="tooltiptext">
+              <a
+                href="https://es.wikipedia.org/wiki/Mezquita-catedral_de_C%C3%B3rdoba#Patio_de_los_Naranjos"
+                target="_blank"
+              >
+                Puedes visitar el patio de los naranjos
+              </a>
+            </span>
+          </div>
+          <div class="img5 tooltip">
+            <span class="tooltiptext">
+              <a
+                href="https://es.wikipedia.org/wiki/Patio_cordob%C3%A9s"
+                target="_blank"
+              >
+                Puedes visitar los patios de la judería
+              </a>
+            </span>
+          </div>
+
+          <div class="img6 tooltip">
+            <span class="tooltiptext">
+              <a
+                href="https://es.wikipedia.org/wiki/Puente_romano_de_C%C3%B3rdoba"
+                target="_blank"
+              >
+                Puedes visitar el puente romano
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="no-print footer">
+      <div class="footer__row"></div>
+      <a class="footer__link" href="#"> Términos </a>
+
+      <a class="footer__link" href="#"> Privacidad </a>
+
+      <a class="footer__link" href="#"> Derechos de autor (DMCA) </a>
+
+      <a class="footer__link" href="#"> Estado del servidor </a>
+
+      <a class="footer__link" href="#"> Código fuente </a>
+
+      <div class="footer__row">Bules powered 2007-2021</div>
+    </footer>
+  </body>
+</html>
