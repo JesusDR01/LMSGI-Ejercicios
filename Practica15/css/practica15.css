@@ -372,7 +372,9 @@ label {
       background-size: cover;
   }
 
-
+  .tooltiptext > a{
+    padding:5px;
+  }
   
 
 }
