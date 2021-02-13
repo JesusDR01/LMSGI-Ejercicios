@@ -9,11 +9,13 @@
 		</description>
 		<category>Videojuegos competitivos</category>
 		<copyright>1º DAW - Jesús Díaz Rivas</copyright>
-		<image>
+		 <enclosure url="https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/pyr/5acddf755bafe8adb6c11ad0/misofonia_0.jpg" length="5000" type="image" />
+		 <!--<image>
 			<url>https://pbs.twimg.com/media/EVaDaYVX0AgLA2s.jpg</url>
 			<title>Feed sobre videojuegos competitivos </title>
 			<link>https://playvalorant.com/es-es/</link>
-		</image>
+		</image> -->
+		
 		<language>es-es</language>
 		<lastBuildDate>Sat, 13 Feb 2021 10:17:00 +0100</lastBuildDate>
 		<webMaster>a20dirije@iesgrancapitan.org</webMaster>
