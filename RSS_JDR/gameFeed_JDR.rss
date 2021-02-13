@@ -62,8 +62,9 @@
 			
  			<image>
 			    <title>Actualización de los puntos de rendimiento</title>
+				<!-- 
 				<url>https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg</url>  
-				<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>        
+				<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>      -->   
 			</image>  
 			
 			
@@ -98,13 +99,13 @@
 			<author>contact@stardewvalley.net</author>
 			<category>Actualizaciones</category>
 			<enclosure url="https://www.stardewvalley.net/wp-content/uploads/2020/12/1_5_promo_square_3x.png" length="61234" type="image" />
-			<!-- 
+			
  			<image>
 			    <title>Actualización 1.5 de Stardew valley!</title>
+				<!-- 
 				<url>https://www.stardewvalley.net/stardew-valley-1-5-update-out-now-on-pc/</url>  
-				<link>https://www.stardewvalley.net/wp-content/uploads/2020/12/1_5_promo_square_3x.png</link>         
+				<link>https://www.stardewvalley.net/wp-content/uploads/2020/12/1_5_promo_square_3x.png</link>    -->      
 			</image> 
-			-->
 			 
 			<pubDate>Mon, 21 Dec 2020 18:00:00 +0100</pubDate>
 		</item>
