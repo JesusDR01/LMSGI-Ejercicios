@@ -9,8 +9,6 @@
 		</description>
 		<category>Videojuegos competitivos</category>
 		<copyright>1º DAW - Jesús Díaz Rivas</copyright>
-		<!--<enclosure url="https://pbs.twimg.com/media/EVaDaYVX0AgLA2s.jpg" length="119710" type="image" /> -->
-		 
 		 <image>
 			<url>https://pbs.twimg.com/media/EVaDaYVX0AgLA2s.jpg</url>
 			<title>Feed sobre videojuegos competitivos </title>
@@ -41,10 +39,7 @@
 			y Cargada y a punto como Captura de lista de juego. 
 			</description>
 			<link>https://www.ea.com/es-es/games/apex-legends/news/season-8-anniversary-collection-event</link>
-			<!--
-				<author>apexLegends@gmail.com</author>
-			-->
-			
+			<author>apexLegends@gmail.com</author>
 			<category>Eventos</category>
 			<enclosure url="https://drive.google.com/file/d/1aJ0Jev-FuEM3VGpO6oiTQd9jkclwZMkz/view?usp=sharing"
 				type="video/webm" length="32572719"/>
@@ -59,20 +54,9 @@
 			Sigue leyendo para saber más!
 			</description>
 			<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>
-			<!--
 			<author>osu@ppy.sh</author>
-			-->
 			<category>Actualizaciones</category>
-			<!-- <enclosure url="https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg" length="33271" type="image" /> -->
-			 <!-- 
- 			<image>
-			    <title>Actualización de los puntos de rendimiento</title>
-				
-				<url>https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg</url>  
-				<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>       
-			</image>  
-			 --> 
-			
+			<enclosure url="https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg" length="33271" type="image/jpg" />
 			<pubDate>Sat, 16 Jan 2021 18:00:00 +0100</pubDate>
 		</item>
 
