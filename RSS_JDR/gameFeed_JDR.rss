@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Feed sobre noticias de videojuegos</title>
+		<link>https://lm.bules.eu/</link>
+		<description>
+			Canal de noticias sobre videojuegos. Aquí encontrará información
+			sobre nuevas actualizaciones, guías y eventos
+		</description>
+		<category>Videojuegos competitivos</category>
+		<copyright>1º DAW - Jesús Díaz Rivas</copyright>
+		<image>
+			<url>https://pbs.twimg.com/media/EVaDaYVX0AgLA2s.jpg</url>
+			<title>Feed sobre videojuegos competitivos </title>
+			<description>Canal RSS de videojuegos competitivos</description>
+			<link>https://playvalorant.com/es-es/</link>
+		</image>
+		<language>es-es</language>
+		<lastBuildDate>Sat, 13 Feb 2021 10:17:00 +0100</lastBuildDate>
+		<webMaster>a20dirije@iesgrancapitan.org</webMaster>
+		<skipDays>
+			<day>Saturday</day>
+			<day>Sunday</day>
+		</skipDays>
+		<skipHours>
+			<hour>0</hour>
+			<hour>1</hour>
+			<hour>2</hour>
+			<hour>3</hour>
+			<hour>4</hour>
+			<hour>5</hour>
+  		</skipHours>
+		<!-- Noticias del canal -->
+		<item>
+			<title>Aniversario apex legends</title>
+			<description>Han pasado dos años increíbles desde el lanzamiento de Apex Legends y esta vez, ¡lo vamos a celebrar!
+			Del 9 al 23 de febrero, vamos a celebrarlo con el evento especial de colección Aniversario. Salta al juego para obtener
+			recompensas gratuitas y disfrutar de un evento de colección especial en el que regresarán aspectos favoritos de los fans
+			y Cargada y a punto como Captura de lista de juego. 
+			</description>
+			<link>https://www.ea.com/es-es/games/apex-legends/news/season-8-anniversary-collection-event</link>
+			<author>apexLegends@gmail.com</author>
+			<category>Eventos</category>
+			<enclosure url="https://drive.google.com/file/d/1aJ0Jev-FuEM3VGpO6oiTQd9jkclwZMkz/view?usp=sharing"
+				type="video/webm" length="32572719"/>
+			<pubDate>Tue, 9 Feb 2021 18:00:00 +0100</pubDate>
+		</item>
+		
+		<item>
+			<title>Actualización de los puntos de rendimiento</title>
+			<description>
+			Gracias al esfuerzo de muchos contribuidores, estamos ansiosos de anunciar una serie de cambios
+			al algoritmo de los puntos de rendimiento (pp) que debería refrescar las cosas a nivel competitivo.
+			Sigue leyendo para saber más!
+			</description>
+			<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>
+			<author>osu@ppy.sh</author>
+			<category>Actualizaciones</category>
+			 <image>
+			    <title>Actualización de los puntos de rendimiento</title>
+				<url>https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg</url>  
+				<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>       
+				<description>Actualización de los puntos de rendimiento</description>
+				<width>920</width>       
+				<height>300</height>      
+			</image>  
+			<pubDate>Sat, 16 Jan 2021 18:00:00 +0100</pubDate>
+		</item>
+
+		<item>
+			<title>Mejores juegos de 2020!</title>
+			<description>
+			Quieres saber cuáles fueron los mejores juegos de 2020? 
+			No te pierdas el podCast de Reload!
+			</description>
+			<link>https://www.youtube.com/watch?v=pszXdCvgt2A</link>
+			<author>pistas@anaitgames.com</author>
+			<category>Top videojuegos</category>
+			<enclosure url="https://drive.google.com/file/d/1eT-v3V06HsG4zWIrqTxLn33445G1CyGN/view?usp=sharing"
+			length="127556438"
+			type="audio/mpeg" />
+			<pubDate>Mon, 28 Dec 2020 18:00:00 +0100</pubDate>
+		</item>
+
+		<item>
+			<title>Actualización 1.5 de Stardew valley!</title>
+			<description>
+			Te gustan los juegos de granja!? Stardew valley es para ti.
+			En este conocido juego de granja han realizado una actualización recientemente que incluye numerosas novedades
+			Sobre todo para aquellos jugadores que están en fases finales de la partida.
+			De este modo, podemos aumentar el número de horas que podemos disfrutar de este juego! 
+			Sigue leyendo para saber más!
+			</description>
+			<link>https://www.stardewvalley.net/stardew-valley-1-5-update-out-now-on-pc/</link>
+			<author>contact@stardewvalley.net</author>
+			<category>Actualizaciones</category>
+			 <image>
+			    <title>Actualización 1.5 de Stardew valley!</title>
+				<url>https://www.stardewvalley.net/stardew-valley-1-5-update-out-now-on-pc/</url>  
+				<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>       
+				<description>Actualización de stardew valley</description>
+				<width>809</width>       
+				<height>809</height>      
+			</image>  
+			<pubDate>Mon, 21 Dec 2020 18:00:00 +0100</pubDate>
+		</item>
+
+	</channel>
+</rss>
