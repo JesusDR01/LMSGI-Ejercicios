@@ -29,6 +29,8 @@ xml:base="https://lm.bules.eu/ATOM_JDR/">
 		<updated>2021-02-13T18:30:02Z</updated>
 		<link href="https://www.ea.com/es-es/games/apex-legends/news/season-8-anniversary-collection-event"></link>
 
+		 <rights type="html"> &copy; 2021 Jesus Diaz Rivas</rights>
+
 		<link rel="enclosure"
 		xml:lang="es-es"
 		title="Noticia aniversario apex"
