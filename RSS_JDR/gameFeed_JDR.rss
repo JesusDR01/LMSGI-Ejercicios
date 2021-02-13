@@ -59,7 +59,9 @@
 			Sigue leyendo para saber más!
 			</description>
 			<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>
+			<!--
 			<author>osu@ppy.sh</author>
+			-->
 			<category>Actualizaciones</category>
 			<!-- <enclosure url="https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg" length="33271" type="image" /> -->
 			
