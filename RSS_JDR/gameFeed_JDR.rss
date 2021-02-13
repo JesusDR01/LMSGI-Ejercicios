@@ -58,14 +58,14 @@
 			<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>
 			<author>osu@ppy.sh</author>
 			<category>Actualizaciones</category>
-			<enclosure url="https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg" length="33271" type="image" />
-			<!--
+			<!-- <enclosure url="https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg" length="33271" type="image" /> -->
+			
  			<image>
 			    <title>Actualización de los puntos de rendimiento</title>
 				<url>https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg</url>  
 				<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>        
 			</image>  
-			-->
+			
 			
 			<pubDate>Sat, 16 Jan 2021 18:00:00 +0100</pubDate>
 		</item>
