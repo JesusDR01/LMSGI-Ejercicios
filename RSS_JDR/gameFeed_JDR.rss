@@ -9,12 +9,13 @@
 		</description>
 		<category>Videojuegos competitivos</category>
 		<copyright>1º DAW - Jesús Díaz Rivas</copyright>
-		 <enclosure url="https://pbs.twimg.com/media/EVaDaYVX0AgLA2s.jpg" length="119710" type="image" />
-		 <!--<image>
+		<!--<enclosure url="https://pbs.twimg.com/media/EVaDaYVX0AgLA2s.jpg" length="119710" type="image" /> -->
+		 
+		 <image>
 			<url>https://pbs.twimg.com/media/EVaDaYVX0AgLA2s.jpg</url>
 			<title>Feed sobre videojuegos competitivos </title>
 			<link>https://playvalorant.com/es-es/</link>
-		</image> -->
+		</image> 
 		
 		<language>es-es</language>
 		<lastBuildDate>Sat, 13 Feb 2021 10:17:00 +0100</lastBuildDate>
