@@ -9,7 +9,7 @@
 		</description>
 		<category>Videojuegos competitivos</category>
 		<copyright>1º DAW - Jesús Díaz Rivas</copyright>
-		 <enclosure url="https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/pyr/5acddf755bafe8adb6c11ad0/misofonia_0.jpg" length="5000" type="image" />
+		 <enclosure url="https://pbs.twimg.com/media/EVaDaYVX0AgLA2s.jpg" length="119710" type="image" />
 		 <!--<image>
 			<url>https://pbs.twimg.com/media/EVaDaYVX0AgLA2s.jpg</url>
 			<title>Feed sobre videojuegos competitivos </title>
@@ -57,11 +57,15 @@
 			<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>
 			<author>osu@ppy.sh</author>
 			<category>Actualizaciones</category>
-			 <image>
+			<enclosure url="https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg" length="33271" type="image" />
+			<!--
+ 			<image>
 			    <title>Actualización de los puntos de rendimiento</title>
 				<url>https://osu.ppy.sh/wiki/images/shared/news/2021-01-14-performance-points-updates/star-rating.jpg</url>  
 				<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>        
 			</image>  
+			-->
+			
 			<pubDate>Sat, 16 Jan 2021 18:00:00 +0100</pubDate>
 		</item>
 
@@ -92,11 +96,15 @@
 			<link>https://www.stardewvalley.net/stardew-valley-1-5-update-out-now-on-pc/</link>
 			<author>contact@stardewvalley.net</author>
 			<category>Actualizaciones</category>
-			 <image>
+			<enclosure url="https://www.stardewvalley.net/wp-content/uploads/2020/12/1_5_promo_square_3x.png" length="61234" type="image" />
+			<!-- 
+ 			<image>
 			    <title>Actualización 1.5 de Stardew valley!</title>
 				<url>https://www.stardewvalley.net/stardew-valley-1-5-update-out-now-on-pc/</url>  
-				<link>https://osu.ppy.sh/home/news/2021-01-14-performance-points-updates</link>         
-			</image>  
+				<link>https://www.stardewvalley.net/wp-content/uploads/2020/12/1_5_promo_square_3x.png</link>         
+			</image> 
+			-->
+			 
 			<pubDate>Mon, 21 Dec 2020 18:00:00 +0100</pubDate>
 		</item>
 
