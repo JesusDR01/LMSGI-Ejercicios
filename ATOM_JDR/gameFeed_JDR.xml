@@ -40,8 +40,11 @@ xml:base="https://lm.bules.eu/ATOM_JDR/">
 			Del 9 al 23 de febrero, vamos a celebrarlo con el evento especial de colección Aniversario. Salta al juego para obtener
 			recompensas gratuitas y disfrutar de un evento de colección especial en el que regresarán aspectos favoritos de los fans
 			y Cargada y a punto como Captura de lista de juego.</summary>
-		<name>Respawn</name>
-		<email>apexLegends@gmail.com</email>
+		<author>
+			<name>Respawn</name>
+			<email>apexLegends@gmail.com</email>
+		</author>
+	
 		<category term="Eventos"></category>
 
 	</entry>
@@ -113,8 +116,9 @@ xml:base="https://lm.bules.eu/ATOM_JDR/">
 			</author>
 			<category term="Actualizaciones"></category>
 			
-			<enclosure url="https://www.stardewvalley.net/wp-content/uploads/2020/12/1_5_promo_square_3x.png" length="61234" type="image/png" />
+			<!-- <enclosure url="https://www.stardewvalley.net/wp-content/uploads/2020/12/1_5_promo_square_3x.png" length="61234" type="image/png" /> -->
 			
+
 		</entry>
 
 </feed>
