@@ -41,7 +41,10 @@
 			y Cargada y a punto como Captura de lista de juego. 
 			</description>
 			<link>https://www.ea.com/es-es/games/apex-legends/news/season-8-anniversary-collection-event</link>
-			<author>apexLegends@gmail.com</author>
+			<!--
+				<author>apexLegends@gmail.com</author>
+			-->
+			
 			<category>Eventos</category>
 			<enclosure url="https://drive.google.com/file/d/1aJ0Jev-FuEM3VGpO6oiTQd9jkclwZMkz/view?usp=sharing"
 				type="video/webm" length="32572719"/>
