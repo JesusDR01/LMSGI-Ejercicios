@@ -7,7 +7,7 @@ xml:base="https://lm.bules.eu/ATOM_JDR/">
 	<id>urn:uuid:489e3980-6e09-11eb-9439-0242ac130002</id>
 	<updated>2021-02-13T18:30:02Z</updated>
 	
-	<link>https://lm.bules.eu/</link>
+	<link href="https://lm.bules.eu/"></link>
 	<subtitle>Canal de noticias sobre videojuegos. Aquí encontrará información
 			sobre nuevas actualizaciones, guías y eventos</subtitle>
 	<category term="Videojuegos competitivos"/>
@@ -27,7 +27,7 @@ xml:base="https://lm.bules.eu/ATOM_JDR/">
 		<title>Aniversario apex legends</title>
 		<id>urn:uuid:5508c78a-6e09-11eb-9439-0242ac130002</id>
 		<updated>2021-02-13T18:30:02Z</updated>
-		<link>https://www.ea.com/es-es/games/apex-legends/news/season-8-anniversary-collection-event</link>
+		<link href="https://www.ea.com/es-es/games/apex-legends/news/season-8-anniversary-collection-event"></link>
 
 		<link rel="enclosure"
 		xml:lang="es-es"
@@ -40,8 +40,9 @@ xml:base="https://lm.bules.eu/ATOM_JDR/">
 			Del 9 al 23 de febrero, vamos a celebrarlo con el evento especial de colección Aniversario. Salta al juego para obtener
 			recompensas gratuitas y disfrutar de un evento de colección especial en el que regresarán aspectos favoritos de los fans
 			y Cargada y a punto como Captura de lista de juego.</summary>
-		<author>apexLegends@gmail.com</author>
-		<category>Eventos</category>
+		<name>Respawn</name>
+		<email>apexLegends@gmail.com</email>
+		<category term="Eventos"></category>
 
 	</entry>
 
@@ -58,8 +59,12 @@ xml:base="https://lm.bules.eu/ATOM_JDR/">
 			al algoritmo de los puntos de rendimiento (pp) que debería refrescar las cosas a nivel competitivo.
 			Sigue leyendo para saber más!
 			</summary>
-			<author>osu@ppy.sh</author>
-			<category>Actualizaciones</category>
+			
+			<author>
+				<name>Peppy</name>
+				<email>osu@ppy.sh</email>
+			</author>
+			<category term="Actualizaciones"></category>
 	
 		</entry>
 
@@ -80,14 +85,17 @@ xml:base="https://lm.bules.eu/ATOM_JDR/">
 			Quieres saber cuáles fueron los mejores juegos de 2020? 
 			No te pierdas el podCast de Reload!
 			</summary>
-			<author>pistas@anaitgames.com</author>
-			<category>Top videojuegos</category>
+			<author>
+				<name>Reload</name>
+				<email>pistas@anaitgames.com</email>
+			</author>
+			<category term="Top videojuegos"></category>
 
 		</entry>
 
 		<entry>
 			<title>Actualización 1.5 de Stardew valley!</title>
-			<link>https://www.stardewvalley.net/stardew-valley-1-5-update-out-now-on-pc/</link>
+			<link href="https://www.stardewvalley.net/stardew-valley-1-5-update-out-now-on-pc/"></link>
 			<id>urn:uuid:51285016-6e0b-11eb-9439-0242ac130002</id>
 			<updated>2020-12-21T18:30:02Z</updated>
  			
@@ -99,13 +107,14 @@ xml:base="https://lm.bules.eu/ATOM_JDR/">
 			De este modo, podemos aumentar el número de horas que podemos disfrutar de este juego! 
 			Sigue leyendo para saber más!&lt;h1&gt;
 			</summary>
-			<author>contact@stardewvalley.net</author>
-			<category>Actualizaciones</category>
+			<author>
+				<name>concernedApe</name>
+				<email>contact@stardewvalley.net</email>
+			</author>
+			<category term="Actualizaciones"></category>
 			
 			<enclosure url="https://www.stardewvalley.net/wp-content/uploads/2020/12/1_5_promo_square_3x.png" length="61234" type="image/png" />
-
 			
 		</entry>
 
-	</channel>
-</rss>
+</feed>
