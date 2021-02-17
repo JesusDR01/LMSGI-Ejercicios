@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom"
+    xml:lang="es"
+    xml:base="http://localhost/atom/"> <!--Preguntar a Pepa-->
+
+    <id>urn:uuid:33ef851d-ae87-41ff-8990-23d7e7cf045f</id> 
+    <!--Identifica el feed utilizando una URI única universal y permanente-->
+
+    <title>Tipología de colores primarios.</title>
+    <updated>2021-02-16T10:00:00+01:00</updated>
+
+    <link rel = 'alternate' href = 'https://www.diferenciador.com/colores-primarios-y-secundarios/'/>
+    <!--Preguntar a Pepa-->
+
+    <author>
+        <name>Virginia Ordoño Bernier</name>
+        <email>a20@iesgrancapitan.org</email>
+        <uri>http://www.iesgracapitan.org/~vordonob</uri>
+    </author>
+
+    <category term = "Curiosidades"/>
+
+    <icon>cuadrado.png</icon>
+    
+
+    <rights type = 'html'>&copy; 20210 Virginia Ordoño Bernier </rights>
+
+    <subtitle>Diferentes clasificaciones de los colores primarios</subtitle>
+
+
+    <entry>
+        <id>urn:uuid:2086255c-b6e3-4f2c-b33b-5003b11bb8a8</id>
+        <title type = "text">Modelo RGB</title>
+        <updated>2021-02-16T14:00:00+01:00</updated>
+        <author>
+            <name>Jose Antonio Castillo</name>
+            <email>jacastillo@gmail.com</email>
+            <uri>https://www.profesionalreview.com/2019/01/20/rgb-que-es/</uri>
+        </author>
+        <summary>Método cromático basado en la síntesis aditiva de la iluminación en los colores rojo, verde y azul.</summary>
+        
+        <!--Vídeo-->
+        <link rel="enclosure"
+        type="application/x-shockwave-flash"
+        title="Vídeo Youtube"
+        href=""
+        length="1234"/>
+        
+    </entry>
+
+     <entry>
+        <id>urn:66334f48-663b-4a11-b742-30c0175bac65</id>
+        <title type = "text">Modelo CMY</title>
+        <updated>2021-02-16T14:00:00+01:00</updated>
+        <author>
+            <name>Verónica Morales Mejía</name>
+            <email>veronicamoralesmejia@gmail.com</email>
+            <uri>http://veronicamoralesmejia.blogspot.com/2014/02/modelo-de-los-colores-cmy-definicion-el.html</uri>
+        </author>
+        <summary>Información sobre el modelo CMY de color sustractivo que se utiliza en la impresión de colores.</summary>
+        
+        <!--Pdf.revisar-->
+        <link rel="enclosure"
+        xml:lang="es-es"
+        title=""
+        type="application/pdf"
+        hreflang="es-es"
+        href="ftp://www.webcolegios.com/file/0dd9d3.pdf"/>
+        
+    </entry>
+…
+
+ <entry>
+        <id>urn:uuid:7ea6f0c4-bfad-482a-9b47-a409412f061f</id>
+        <title type = "text">Modelo RYB</title>
+        <updated>2021-02-16T14:00:00+01:00</updated>
+        <author>
+            <name> Ingrid Calvo Ivanovic</name>
+            <email>icalvoivanovic@gmail.com</email>
+            <uri>http://www.proyectacolor.cl/aplicacion-del-color/modelos-de-color/modelo-ryb/</uri>
+        </author>
+        <summary>Información sobre el modelo RYB de color sustractivo que se utiliza en la impresión de colores.</summary>
+        
+        <!--Página externa-->
+        <link rel='enclosure'
+            type = 'webpage'
+            href = 'https://elcolor.webs.com'
+            length ='2342'/>
+        
+    </entry>
+
+ <entry>
+        <id>urn:uuid:2a07600e-120f-47df-a6ec-48255f66091e</id>
+        <title type = "text">Colores primarios psicológicos.</title>
+        <updated>2021-02-16T14:00:00+01:00</updated>
+        <author>
+            <name>Lorena López</name>
+            <email>lorenalopez@gmail.com</email>
+            <uri>https://elcaminodeladocencia.wordpress.com/colores-primarios/</uri>
+        </author>
+        <summary>Introducción a los colores primarios psicológicos.</summary>
+        
+        <!--Código HTML-->
+        <link rel='enclosure'
+            type = 'html'
+            href = 'http://www.manualweb.net/html/colores-html/'
+            length ='2342'/>
+        
+    </entry>
+</feed>
